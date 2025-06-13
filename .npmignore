@@ -1,0 +1,8 @@
+src/
+tsconfig.json
+test-mcp.js
+node_modules/
+.git/
+.gitignore
+*.log
+.DS_Store

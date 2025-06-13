@@ -1,0 +1,42 @@
+{
+  "name": "@paperinvest/mcp-server",
+  "version": "1.0.3",
+  "description": "Official MCP server for Paper's trading platform - enables AI assistants to interact with Paper's API",
+  "main": "dist/index.js",
+  "bin": {
+    "paper-mcp-server": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "trading",
+    "paper",
+    "paper-invest",
+    "claude",
+    "ai",
+    "trading-api"
+  ],
+  "author": "Paper Invest, Inc.",
+  "license": "MIT",
+  "homepage": "https://docs.paperinvest.io/mcp-protocol",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

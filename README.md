@@ -2,6 +2,10 @@
 
 Official Model Context Protocol (MCP) server for Paper's trading platform. This enables AI assistants like Claude to interact with Paper's API using natural language.
 
+<a href="https://glama.ai/mcp/servers/@paperinvest/mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@paperinvest/mcp-server/badge" alt="Paper Server MCP server" />
+</a>
+
 ## Installation
 
 This package is automatically installed when you configure Claude Desktop. No manual installation is required.

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "paper": {
+      "command": "paper-mcp-server",
+      "env": {
+        "PAPER_API_KEY": "your_api_key"
+      }
+    }
+  }
+}

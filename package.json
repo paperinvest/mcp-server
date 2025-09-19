@@ -1,8 +1,16 @@
 {
   "name": "@paperinvest/mcp-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Official MCP server for Paper's trading platform - enables AI assistants to interact with Paper's API",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
   "bin": {
     "paper-mcp-server": "./dist/index.js"
   },
@@ -23,6 +31,13 @@
     "README.md",
     "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paperinvest/mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paperinvest/mcp-server/issues"
+  },
   "keywords": [
     "mcp",
     "model-context-protocol",
@@ -35,7 +50,11 @@
   ],
   "author": "Paper Invest, Inc.",
   "license": "MIT",
-  "homepage": "https://docs.paperinvest.io/mcp-protocol",
+  "homepage": "https://github.com/paperinvest/mcp-server#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
   "engines": {
     "node": ">=16.0.0"
   }
